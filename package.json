@@ -1,0 +1,31 @@
+{
+  "name": "@netherlink117/nmodelize",
+  "version": "2.0.0",
+  "description": "NModelize is an small and basic module that brings model-like functions on node.",
+  "main": "nmodelize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netherlink117/nmodelize.git"
+  },
+  "keywords": [
+    "Model",
+    "NModelize",
+    "nmodelize"
+  ],
+  "author": "Daniel Gutierrez <netherlink@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/netherlink117/nmodelize/issues"
+  },
+  "homepage": "https://github.com/netherlink117/nmodelize#readme",
+  "dependencies": {
+    "@netherlink117/nsqlize": "github:netherlink117/nsqlize",
+    "pluralize": "^8.0.0"
+  }
+}
